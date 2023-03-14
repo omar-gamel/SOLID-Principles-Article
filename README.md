@@ -89,11 +89,11 @@ public class Invoice {
 - <b>printInvoice</b> method, that should print the invoice to console, and
 - <b>saveToFile</b> method, responsible for writing the invoice to a file.
 
-<p>The first violation is the printInvoice method, which contains our printing logic. The SRP states that our class should only have a single reason to change, and that reason should be a change in the invoice calculation for our class.</p>
+<p>The first violation is the <b>printInvoice</b> method, which contains our printing logic. The SRP states that our class should only have a single reason to change, and that reason should be a change in the invoice calculation for our class.</p>
 
 <p>But in this architecture, if we wanted to change the printing format, we would need to change the class. This is why we should not have printing logic mixed with business logic in the same class.</p>
 
-<p>There is another method that violates the SRP in our class: the saveToFile method. It is also an extremely common mistake to mix persistence logic with business logic.</p>
+<p>There is another method that violates the SRP in our class: the <b>saveToFile</b> method. It is also an extremely common mistake to mix persistence logic with business logic.</p>
 
 <p>So how can we fix this print function, you may ask.</p>
 
