@@ -225,6 +225,12 @@ public class PersistenceManager {
 
 <p>Liskov's principle is easy to understand but hard to detect in code. So let's look at an example.</p>
 
+T = Parent </br>
+S = SubClass
+
+t1 = new T
+   = new S
+
 ```
 class Rectangle {
 	protected int width, height;
