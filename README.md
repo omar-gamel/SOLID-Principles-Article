@@ -1,4 +1,4 @@
-![GitHub Logo](https://github.com/omar-gamel/SOLID-principles-article/blob/main/image.PNG)
+![SOLID Princoles](https://github.com/omar-gamel/SOLID-principles-article/blob/main/image.PNG)
 # SOLID Principles
 
  The SOLID Principles are five principles of Object-Oriented class design.<br> 
@@ -194,6 +194,8 @@ public class FilePersistence implements InvoicePersistence {
 }
 ```
 <p>Now our persistence logic is easily extendable. If our boss asks us to add another database and have 2 different types of databases like MySQL and MongoDB, we can easily do that.</p>
+
+![SOLID Princoles](https://github.com/omar-gamel/SOLID-principles-article/blob/main/image2.PNG)
 
 <p>You may think that we could just create multiple classes without an interface and add a save method to all of them.</p>
 
