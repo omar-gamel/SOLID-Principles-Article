@@ -1,4 +1,4 @@
-![SOLID Princoles](https://github.com/omar-gamel/SOLID-principles-article/blob/main/image.PNG)
+![SOLID Princoles](https://github.com/omar-gamel/SOLID-principles-article/blob/main/solid-principles.PNG)
 # SOLID Principles
 
  The SOLID Principles are five principles of Object-Oriented class design.<br> 
