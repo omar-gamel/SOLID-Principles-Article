@@ -350,7 +350,7 @@ The Dependency Inversion principle states that <b>our classes should depend upon
 
 These two principles are indeed related and we have applied this pattern before while we were discussing the Open-Closed Principle.
 
-We want our classes to be open to extension, so we have reorganized our dependencies to depend on interfaces instead of concrete classes. Our PersistenceManager class depends on InvoicePersistence instead of the classes that implement that interface.
+We want our classes to be open to extension, so we have reorganized our dependencies to depend on interfaces instead of concrete classes.
 
 <b>Example Before Applying DIP</b>
 
