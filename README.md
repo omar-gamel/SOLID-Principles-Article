@@ -22,23 +22,25 @@ Let's look at each principle one by one. Following the SOLID acronym, they are:
 
 The Single Responsibility Principle states that <b> a class should do one thing and therefore it should have only a single reason to change.</b>
 
-<p>In this section we will look at some common mistakes that violate the Single Responsibility Principle. Then we will talk about some ways to fix them.</p>
+<p>In this section we will look at some common mistakes that violate the Single Responsibility Principle.</p>
 
-```   
-class Book {
-	String name;
-	String authorName;
-	int year;
-	int price;
-	String isbn;
+```  java
+public class User {
+    private String name;
+    private String email;
 
-	public Book(String name, String authorName, int year, int price, String isbn) {
-		this.name = name;
-		this.authorName = authorName;
-		this.year = year;
-        this.price = price;
-		this.isbn = isbn;
-	}
+    public User(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    public void saveToDatabase() {
+        // Logic to save user details to a database
+    }
+
+    public void sendEmail(String content) {
+        // Logic to send an email to the user
+    }
 }
 ```   
 
