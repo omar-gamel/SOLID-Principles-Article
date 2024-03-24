@@ -185,14 +185,6 @@ By using the <b>UserDataPersistence</b> interface, we can easily add more ways t
 
 Here's an example demonstrating LSP with a base class <b>Payment</b> and a subclass <b>CreditCardPayment</b>. The principle will guide us to ensure that <b>CreditCardPayment</b> can replace Payment without altering the desirable properties of the program.
 
-```
- T = Parent;
- S = SubClass;
-
- t1 = new T
-    = new S
-```
-
 <b>Example Before Applying LSP</b>
 
 Suppose we have a <b>Payment</b> class and a <b>CreditCardPayment</b> class that overrides a method in a way that changes the original behavior:
